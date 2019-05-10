@@ -1,8 +1,9 @@
 package com.javaEE.basics;
 
 /**
- * 第一个程序,helloWorld
- * @author githubName: SuperInteface
+ * 
+ * @author	github: SuperInteface
+ * @date	2019年5月8日
  */
 public class A01_HelloWorld {
 
