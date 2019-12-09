@@ -158,9 +158,9 @@ public class A05_ProcessControl {
 		 * 	语法 for(x;boolean;y){...} 其中x部分代表循环变量的的初始化,一般在这里进行初始化,当然也可以在for之前进行初始化,boolean处是循环的条件,y处是变量控制,通常通过变量的加减乘除来进行控制循环
 		 */
 		for(int i=0;i<10;i++) {
-			if(i==2) continue; // continue表示跳出当前循环
+			if(i==2) continue; // continue表示跳出当前这次循环
 			System.out.println("当前i为 : " + i);
-			if(i==8) break; // break 表示结束当前循环
+			if(i==8) break; // break 表示结束当前循环体
 		}
 		System.out.println("\n==========for循环的break应用");
 		loop1:
