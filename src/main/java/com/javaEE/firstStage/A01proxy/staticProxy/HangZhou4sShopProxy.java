@@ -1,14 +1,18 @@
 package com.javaEE.firstStage.A01proxy.staticProxy;
 
-public class HangZhou4sProxy implements Commodity{
+import com.javaEE.firstStage.A01proxy.Commodity;
+import com.javaEE.firstStage.A01proxy.HaFo;
+import com.javaEE.firstStage.A01proxy.WuLingHongGuang;
+
+public class HangZhou4sShopProxy implements Commodity{
 
 	private Commodity commodity;
 	
-	public HangZhou4sProxy (HaFo hf){
+	public HangZhou4sShopProxy (HaFo hf){
 		this.commodity = hf;
 	}
 	
-	public HangZhou4sProxy (WuLingHongGuang wlhg){
+	public HangZhou4sShopProxy (WuLingHongGuang wlhg){
 		this.commodity = wlhg;
 	}
 	

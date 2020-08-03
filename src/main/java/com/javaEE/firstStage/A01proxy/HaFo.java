@@ -1,4 +1,4 @@
-package com.javaEE.firstStage.A01proxy.staticProxy;
+package com.javaEE.firstStage.A01proxy;
 
 public class HaFo implements Commodity{
 

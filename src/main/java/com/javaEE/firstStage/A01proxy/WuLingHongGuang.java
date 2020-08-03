@@ -1,4 +1,4 @@
-package com.javaEE.firstStage.A01proxy.staticProxy;
+package com.javaEE.firstStage.A01proxy;
 
 /**
  *	五菱宏光商品厂商,可以出售五菱宏光系列商品.

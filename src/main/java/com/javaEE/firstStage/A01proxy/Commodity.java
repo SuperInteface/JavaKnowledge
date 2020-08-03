@@ -1,4 +1,4 @@
-package com.javaEE.firstStage.A01proxy.staticProxy;
+package com.javaEE.firstStage.A01proxy;
 
 /**
  *	商品类接口,方法sell为出售方法.

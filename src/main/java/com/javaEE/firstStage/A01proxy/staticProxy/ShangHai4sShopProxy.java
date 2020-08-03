@@ -1,20 +1,24 @@
 package com.javaEE.firstStage.A01proxy.staticProxy;
 
+import com.javaEE.firstStage.A01proxy.Commodity;
+import com.javaEE.firstStage.A01proxy.HaFo;
+import com.javaEE.firstStage.A01proxy.WuLingHongGuang;
+
 /**
  *	上海某家4s店, 当前即为代理,代理N多车商, 对N多品牌的车进行代理售卖, 自然应该有N多构造方法.
  * @author SuperInteface
  *
  */
-public class ShangHai4sShop implements Commodity{
+public class ShangHai4sShopProxy implements Commodity{
 	
 	private Commodity commodity;
 	
 	// 对五菱宏光进行代理构造方法
-	public ShangHai4sShop(WuLingHongGuang wlhg) {
+	public ShangHai4sShopProxy(WuLingHongGuang wlhg) {
 		this.commodity = wlhg;
 	}
 	// 对哈佛进行代理构造方法
-	public ShangHai4sShop(HaFo hafo) {
+	public ShangHai4sShopProxy(HaFo hafo) {
 		this.commodity = hafo;
 	}
 	
