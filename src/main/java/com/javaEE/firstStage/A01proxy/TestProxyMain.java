@@ -7,7 +7,7 @@ import com.javaEE.firstStage.A01proxy.dynamicProxy.ProxyHandler;
 import com.javaEE.firstStage.A01proxy.staticProxy.HangZhou4sShopProxy;
 import com.javaEE.firstStage.A01proxy.staticProxy.ShangHai4sShopProxy;
 
-public class TestStaticProxy {
+public class TestProxyMain {
 	
 	public static void main(String[] args) {
 		/*
