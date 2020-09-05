@@ -11,10 +11,22 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.7</source>    <!-- Java版本号 -->
-                    <target>1.7</target>
+                    <source>1.8</source>    <!-- Java版本号 -->
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    
+    <dependencies>
+    	
+    	<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.3.10.RELEASE</version>
+		</dependency>
+    	
+    </dependencies>
+    
+    
 </project>
