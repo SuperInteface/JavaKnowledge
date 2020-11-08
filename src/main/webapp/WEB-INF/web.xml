@@ -16,7 +16,7 @@
 		<param-value>classpath:applicationContext.xml</param-value>
 	</context-param>
 
-	<!-- Spring容器初始化,使用监听器 -->
+    <!-- Spring容器初始化,使用监听器 -->
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
